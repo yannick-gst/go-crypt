@@ -52,4 +52,4 @@ This project is licensed under the MIT license. See the `LICENSE <https://github
 Third-Party Libraries
 =====================
 - `pbkdf2 <https://pkg.go.dev/golang.org/x/crypto/pbkdf2>`_ is used for password-based file encryption.
-- `argtparse <https://github.com/akamensky/argparse>`_ is used to parse command line arguments.
+- `argparse <https://github.com/akamensky/argparse>`_ is used to parse command line arguments.
