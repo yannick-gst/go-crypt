@@ -32,11 +32,13 @@ Running ``gocrypt --help`` or ``goccrypt -h`` will display help information:
     -m  --mode    Specifies whether to encrypt or decrypt
 
 To encrypt a file, one can run:
+
 .. code-block:: console
 
     gocrypt -i file_to_encrypt -o output_file -m encrypt
 
 To decrypt a file, one can run:
+
 .. code-block:: console
 
     gocrypt -i file_to_decrypt -o output_file -m decrypt
