@@ -51,4 +51,4 @@ This project is licensed under the MIT license. See the `LICENSE <https://github
 
 Third-Party Libraries
 =====================
-This project uses `package pbkdf2 <https://pkg.go.dev/golang.org/x/crypto/pbkdf2>`_ for password based file encryption.
+This project uses `package pbkdf2 <https://pkg.go.dev/golang.org/x/crypto/pbkdf2>`_ for password-based file encryption.
