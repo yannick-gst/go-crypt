@@ -17,6 +17,7 @@ Usage
 Running ``gocrypt --help`` or ``goccrypt -h`` will display help information:
 
 .. code-block:: console
+
     usage: gocrypt [-h|--help] -i|--input "<value>" -o|--output "<value>" -m|--mode
                (encrypt|decrypt)
 
@@ -32,10 +33,12 @@ Running ``gocrypt --help`` or ``goccrypt -h`` will display help information:
 
 To encrypt a file, one can run:
 .. code-block:: console
+
     gocrypt -i file_to_encrypt -o output_file -m encrypt
 
 To decrypt a file, one can run:
 .. code-block:: console
+
     gocrypt -i file_to_decrypt -o output_file -m decrypt
 
 For both encryption and decryption, the user will be prompted to enter a password. The password used for decryption should match the password that was used to encrypt the original data.
