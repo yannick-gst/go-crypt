@@ -7,7 +7,6 @@ import (
 )
 
 const (
-	channelBufferSize = 10
 	chunkSize = 64 * 1024 // 64 KB chunks,
 	saltSize = 32
 )
